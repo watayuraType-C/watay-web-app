@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-const PUBLIC_PATHS = ["/login", "/api/auth", "/api/health"];
+const PUBLIC_PATHS = ["/login", "/privacy", "/api/auth", "/api/health"];
 const SESSION_COOKIES = [
   "authjs.session-token",
   "__Secure-authjs.session-token",
